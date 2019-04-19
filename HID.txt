@@ -1,0 +1,1306 @@
+Found HID class devices!, writting details...
+HID device (vID=0x1532, pID=0x0203, v=0x0200); Razer; Razer BlackWidow Chroma, Path: \\?\hid#vid_1532&pid_0203&mi_01&col02#7&2418ad5f&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Path:      \\?\hid#vid_1532&pid_0203&mi_01&col02#7&2418ad5f&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Instance:  HID\VID_1532&PID_0203&MI_01&COL02\7&2418AD5F&0&0001
+
+  Port (ID): 22
+
+  Port (str):USB\VID_1532&PID_0203&MI_01\6&94220B1&0&0001
+
+HID device documentation report
+===============================
+
+Top Level Details
+-----------------
+
+Manufacturer String:    Razer
+Product Sting:          Razer BlackWidow Chroma
+Serial Number:
+
+Vendor ID:              0x1532
+Product ID:             0x0203
+Version number:         0x0200
+
+Device Path:            \\?\hid#vid_1532&pid_0203&mi_01&col02#7&2418ad5f&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Device Instance Id:     HID\VID_1532&PID_0203&MI_01&COL02\7&2418AD5F&0&0001
+Parent Instance Id:     22
+
+Top level usage:        Page=0x000c, Usage=0x01
+Usage identification:   Consumer device, Consumer Control usage
+Link collections:       1 collection(s)
+
+Reports
+-------
+
+Input Report
+~~~~~~~~~~~~
+Length:     16 byte(s)
+Buttons:    1 button(s)
+Values:     0 value(s)
+
+Output Report
+~~~~~~~~~~~~~
+length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+Feature Report
+~~~~~~~~~~~~~
+Length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+*** Input Caps ***
+
+    Usage Range 0~572 (0x0~0x23c), Page 0xc (Consumer)
+        bit_field: 0
+        data_index_max: 572
+        data_index_min: 0
+        designator_max: 0
+        designator_min: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: True
+        is_designator_range: 0
+        is_range: 1
+        is_string_range: 0
+        is_value: False
+        link_collection: 0
+        link_usage: 1 (0x1)
+        link_usage_page: 12 (0xc)
+        report_id: 2
+        string_max: 0
+        string_min: 0
+
+HID device (vID=0x1532, pID=0x0203, v=0x0200); Razer; Razer BlackWidow Chroma, Path: \\?\hid#vid_1532&pid_0203&mi_01&col03#7&2418ad5f&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Path:      \\?\hid#vid_1532&pid_0203&mi_01&col03#7&2418ad5f&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Instance:  HID\VID_1532&PID_0203&MI_01&COL03\7&2418AD5F&0&0002
+
+  Port (ID): 22
+
+  Port (str):USB\VID_1532&PID_0203&MI_01\6&94220B1&0&0001
+
+HID device documentation report
+===============================
+
+Top Level Details
+-----------------
+
+Manufacturer String:    Razer
+Product Sting:          Razer BlackWidow Chroma
+Serial Number:
+
+Vendor ID:              0x1532
+Product ID:             0x0203
+Version number:         0x0200
+
+Device Path:            \\?\hid#vid_1532&pid_0203&mi_01&col03#7&2418ad5f&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Device Instance Id:     HID\VID_1532&PID_0203&MI_01&COL03\7&2418AD5F&0&0002
+Parent Instance Id:     22
+
+Top level usage:        Page=0x0001, Usage=0x80
+Usage identification:   Generic Desktop device, System Control usage
+Link collections:       1 collection(s)
+
+Reports
+-------
+
+Input Report
+~~~~~~~~~~~~
+Length:     16 byte(s)
+Buttons:    1 button(s)
+Values:     0 value(s)
+
+Output Report
+~~~~~~~~~~~~~
+length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+Feature Report
+~~~~~~~~~~~~~
+Length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+*** Input Caps ***
+
+    Usage Range 129~131 (0x81~0x83), Page 0x1 (Generic Desktop)
+        bit_field: 2
+        data_index_max: 2
+        data_index_min: 0
+        designator_max: 0
+        designator_min: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: True
+        is_designator_range: 0
+        is_range: 1
+        is_string_range: 0
+        is_value: False
+        link_collection: 0
+        link_usage: 128 (0x80)
+        link_usage_page: 1 (0x1)
+        report_id: 3
+        string_max: 0
+        string_min: 0
+
+HID device (vID=0x1532, pID=0x0504, v=0x1022); Razer; Razer Kraken 7.1 Chroma, Path: \\?\hid#vid_1532&pid_0504&mi_03&col01#7&2792b346&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Path:      \\?\hid#vid_1532&pid_0504&mi_03&col01#7&2792b346&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Instance:  HID\VID_1532&PID_0504&MI_03&COL01\7&2792B346&0&0000
+
+  Port (ID): 23
+
+  Port (str):USB\VID_1532&PID_0504&MI_03\6&1D2A2DE8&0&0003
+
+HID device documentation report
+===============================
+
+Top Level Details
+-----------------
+
+Manufacturer String:    Razer
+Product Sting:          Razer Kraken 7.1 Chroma
+Serial Number:
+
+Vendor ID:              0x1532
+Product ID:             0x0504
+Version number:         0x1022
+
+Device Path:            \\?\hid#vid_1532&pid_0504&mi_03&col01#7&2792b346&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Device Instance Id:     HID\VID_1532&PID_0504&MI_03&COL01\7&2792B346&0&0000
+Parent Instance Id:     23
+
+Top level usage:        Page=0x000c, Usage=0x01
+Usage identification:   Consumer device, Consumer Control usage
+Link collections:       1 collection(s)
+
+Reports
+-------
+
+Input Report
+~~~~~~~~~~~~
+Length:     33 byte(s)
+Buttons:    3 button(s)
+Values:     2 value(s)
+
+Output Report
+~~~~~~~~~~~~~
+length:     37 byte(s)
+Buttons:    0 button(s)
+Values:     2 value(s)
+
+Feature Report
+~~~~~~~~~~~~~
+Length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+*** Input Caps ***
+
+    Usage 234 (0xea), Page 0xc
+    (Consumer device, Volume Decrement usage)
+        bit_field: 6
+        data_index: 0
+        designator_index: 0
+        is_absolute: 0
+        is_alias: 0
+        is_button: True
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: False
+        link_collection: 0
+        link_usage: 1 (0x1)
+        link_usage_page: 12 (0xc)
+        report_id: 1
+        string_index: 0
+
+    Usage 233 (0xe9), Page 0xc
+    (Consumer device, Volume Increment usage)
+        bit_field: 6
+        data_index: 1
+        designator_index: 0
+        is_absolute: 0
+        is_alias: 0
+        is_button: True
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: False
+        link_collection: 0
+        link_usage: 1 (0x1)
+        link_usage_page: 12 (0xc)
+        report_id: 1
+        string_index: 0
+
+    Usage 0 (0x0), Page 0xc
+    (Consumer device, Unknown usage)
+        bit_field: 2
+        data_index: 2
+        designator_index: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: True
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: False
+        link_collection: 0
+        link_usage: 1 (0x1)
+        link_usage_page: 12 (0xc)
+        report_id: 2
+        string_index: 0
+
+    Usage 0 (0x0), Page 0xc
+    (Consumer device, Unknown usage)
+        bit_field: 2
+        bit_size: 8
+        data_index: 3
+        designator_index: 0
+        has_null: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: False
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: True
+        link_collection: 0
+        link_usage: 1 (0x1)
+        link_usage_page: 12 (0xc)
+        logical_max: 1
+        logical_min: 0
+        physical_max: 0
+        physical_min: 0
+        report_count: 32
+        report_id: 5
+        string_index: 0
+        units: 0
+        units_exp: 0
+
+    Usage 0 (0x0), Page 0xc
+    (Consumer device, Unknown usage)
+        bit_field: 2
+        bit_size: 8
+        data_index: 4
+        designator_index: 0
+        has_null: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: False
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: True
+        link_collection: 0
+        link_usage: 1 (0x1)
+        link_usage_page: 12 (0xc)
+        logical_max: 1
+        logical_min: 0
+        physical_max: 0
+        physical_min: 0
+        report_count: 32
+        report_id: 7
+        string_index: 0
+        units: 0
+        units_exp: 0
+
+*** Output Caps ***
+
+    Usage 0 (0x0), Page 0xc
+    (Consumer device, Unknown usage)
+        bit_field: 2
+        bit_size: 8
+        data_index: 0
+        designator_index: 0
+        has_null: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: False
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: True
+        link_collection: 0
+        link_usage: 1 (0x1)
+        link_usage_page: 12 (0xc)
+        logical_max: 1
+        logical_min: 0
+        physical_max: 0
+        physical_min: 0
+        report_count: 36
+        report_id: 4
+        string_index: 0
+        units: 0
+        units_exp: 0
+
+    Usage 0 (0x0), Page 0xc
+    (Consumer device, Unknown usage)
+        bit_field: 2
+        bit_size: 8
+        data_index: 1
+        designator_index: 0
+        has_null: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: False
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: True
+        link_collection: 0
+        link_usage: 1 (0x1)
+        link_usage_page: 12 (0xc)
+        logical_max: 1
+        logical_min: 0
+        physical_max: 0
+        physical_min: 0
+        report_count: 36
+        report_id: 6
+        string_index: 0
+        units: 0
+        units_exp: 0
+
+HID device (vID=0x1532, pID=0x0203, v=0x0200); Razer; Razer BlackWidow Chroma, Path: \\?\hid#vid_1532&pid_0203&mi_01&col04#7&2418ad5f&0&0003#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Path:      \\?\hid#vid_1532&pid_0203&mi_01&col04#7&2418ad5f&0&0003#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Instance:  HID\VID_1532&PID_0203&MI_01&COL04\7&2418AD5F&0&0003
+
+  Port (ID): 22
+
+  Port (str):USB\VID_1532&PID_0203&MI_01\6&94220B1&0&0001
+
+HID device documentation report
+===============================
+
+Top Level Details
+-----------------
+
+Manufacturer String:    Razer
+Product Sting:          Razer BlackWidow Chroma
+Serial Number:
+
+Vendor ID:              0x1532
+Product ID:             0x0203
+Version number:         0x0200
+
+Device Path:            \\?\hid#vid_1532&pid_0203&mi_01&col04#7&2418ad5f&0&0003#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Device Instance Id:     HID\VID_1532&PID_0203&MI_01&COL04\7&2418AD5F&0&0003
+Parent Instance Id:     22
+
+Top level usage:        Page=0x0001, Usage=0x00
+Usage identification:   Generic Desktop device, Unknown usage
+Link collections:       1 collection(s)
+
+Reports
+-------
+
+Input Report
+~~~~~~~~~~~~
+Length:     16 byte(s)
+Buttons:    1 button(s)
+Values:     0 value(s)
+
+Output Report
+~~~~~~~~~~~~~
+length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+Feature Report
+~~~~~~~~~~~~~
+Length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+*** Input Caps ***
+
+    Usage 3 (0x3), Page 0x1
+    (Generic Desktop device, Unknown usage)
+        bit_field: 0
+        data_index: 0
+        designator_index: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: True
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: False
+        link_collection: 0
+        link_usage: 0 (0x0)
+        link_usage_page: 1 (0x1)
+        report_id: 4
+        string_index: 0
+
+HID device (vID=0x1532, pID=0x0504, v=0x1022); Razer; Razer Kraken 7.1 Chroma, Path: \\?\hid#vid_1532&pid_0504&mi_03&col02#7&2792b346&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Path:      \\?\hid#vid_1532&pid_0504&mi_03&col02#7&2792b346&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Instance:  HID\VID_1532&PID_0504&MI_03&COL02\7&2792B346&0&0001
+
+  Port (ID): 23
+
+  Port (str):USB\VID_1532&PID_0504&MI_03\6&1D2A2DE8&0&0003
+
+HID device documentation report
+===============================
+
+Top Level Details
+-----------------
+
+Manufacturer String:    Razer
+Product Sting:          Razer Kraken 7.1 Chroma
+Serial Number:
+
+Vendor ID:              0x1532
+Product ID:             0x0504
+Version number:         0x1022
+
+Device Path:            \\?\hid#vid_1532&pid_0504&mi_03&col02#7&2792b346&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Device Instance Id:     HID\VID_1532&PID_0504&MI_03&COL02\7&2792B346&0&0001
+Parent Instance Id:     23
+
+Top level usage:        Page=0x000b, Usage=0x05
+Usage identification:   Telephony device, Headset usage
+Link collections:       1 collection(s)
+
+Reports
+-------
+
+Input Report
+~~~~~~~~~~~~
+Length:     2 byte(s)
+Buttons:    2 button(s)
+Values:     0 value(s)
+
+Output Report
+~~~~~~~~~~~~~
+length:     2 byte(s)
+Buttons:    3 button(s)
+Values:     0 value(s)
+
+Feature Report
+~~~~~~~~~~~~~
+Length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+*** Input Caps ***
+
+    Usage 47 (0x2f), Page 0xb
+    (Telephony device, Phone Mute usage)
+        bit_field: 6
+        data_index: 0
+        designator_index: 0
+        is_absolute: 0
+        is_alias: 0
+        is_button: True
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: False
+        link_collection: 0
+        link_usage: 5 (0x5)
+        link_usage_page: 11 (0xb)
+        report_id: 8
+        string_index: 0
+
+    Usage 32 (0x20), Page 0xb
+    (Telephony device, Hook Switch usage)
+        bit_field: 34
+        data_index: 1
+        designator_index: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: True
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: False
+        link_collection: 0
+        link_usage: 5 (0x5)
+        link_usage_page: 11 (0xb)
+        report_id: 8
+        string_index: 0
+
+*** Output Caps ***
+
+    Usage 9 (0x9), Page 0x8
+    (LED device, Mute usage)
+        bit_field: 34
+        data_index: 0
+        designator_index: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: True
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: False
+        link_collection: 0
+        link_usage: 5 (0x5)
+        link_usage_page: 11 (0xb)
+        report_id: 9
+        string_index: 0
+
+    Usage 23 (0x17), Page 0x8
+    (LED device, Off-Hook usage)
+        bit_field: 34
+        data_index: 1
+        designator_index: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: True
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: False
+        link_collection: 0
+        link_usage: 5 (0x5)
+        link_usage_page: 11 (0xb)
+        report_id: 23
+        string_index: 0
+
+    Usage 33 (0x21), Page 0x8
+    (LED device, Microphone usage)
+        bit_field: 34
+        data_index: 2
+        designator_index: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: True
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: False
+        link_collection: 0
+        link_usage: 5 (0x5)
+        link_usage_page: 11 (0xb)
+        report_id: 33
+        string_index: 0
+
+HID device (vID=0x1532, pID=0x0203, v=0x0200); Razer; Razer BlackWidow Chroma, Path: \\?\hid#vid_1532&pid_0203&mi_01&col05#7&2418ad5f&0&0004#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Path:      \\?\hid#vid_1532&pid_0203&mi_01&col05#7&2418ad5f&0&0004#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Instance:  HID\VID_1532&PID_0203&MI_01&COL05\7&2418AD5F&0&0004
+
+  Port (ID): 22
+
+  Port (str):USB\VID_1532&PID_0203&MI_01\6&94220B1&0&0001
+
+HID device documentation report
+===============================
+
+Top Level Details
+-----------------
+
+Manufacturer String:    Razer
+Product Sting:          Razer BlackWidow Chroma
+Serial Number:
+
+Vendor ID:              0x1532
+Product ID:             0x0203
+Version number:         0x0200
+
+Device Path:            \\?\hid#vid_1532&pid_0203&mi_01&col05#7&2418ad5f&0&0004#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Device Instance Id:     HID\VID_1532&PID_0203&MI_01&COL05\7&2418AD5F&0&0004
+Parent Instance Id:     22
+
+Top level usage:        Page=0x0001, Usage=0x00
+Usage identification:   Generic Desktop device, Unknown usage
+Link collections:       1 collection(s)
+
+Reports
+-------
+
+Input Report
+~~~~~~~~~~~~
+Length:     16 byte(s)
+Buttons:    1 button(s)
+Values:     0 value(s)
+
+Output Report
+~~~~~~~~~~~~~
+length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+Feature Report
+~~~~~~~~~~~~~
+Length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+*** Input Caps ***
+
+    Usage 3 (0x3), Page 0x1
+    (Generic Desktop device, Unknown usage)
+        bit_field: 0
+        data_index: 0
+        designator_index: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: True
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: False
+        link_collection: 0
+        link_usage: 0 (0x0)
+        link_usage_page: 1 (0x1)
+        report_id: 5
+        string_index: 0
+
+HID device (vID=0x1532, pID=0x0046, v=0x0200); Razer; Razer Mamba Tournament Edition, Path: \\?\hid#vid_1532&pid_0046&mi_01&col02#7&2c89c211&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Path:      \\?\hid#vid_1532&pid_0046&mi_01&col02#7&2c89c211&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Instance:  HID\VID_1532&PID_0046&MI_01&COL02\7&2C89C211&0&0001
+
+  Port (ID): 25
+
+  Port (str):USB\VID_1532&PID_0046&MI_01\6&2CB2A712&0&0001
+
+HID device documentation report
+===============================
+
+Top Level Details
+-----------------
+
+Manufacturer String:    Razer
+Product Sting:          Razer Mamba Tournament Edition
+Serial Number:
+
+Vendor ID:              0x1532
+Product ID:             0x0046
+Version number:         0x0200
+
+Device Path:            \\?\hid#vid_1532&pid_0046&mi_01&col02#7&2c89c211&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Device Instance Id:     HID\VID_1532&PID_0046&MI_01&COL02\7&2C89C211&0&0001
+Parent Instance Id:     25
+
+Top level usage:        Page=0x000c, Usage=0x01
+Usage identification:   Consumer device, Consumer Control usage
+Link collections:       1 collection(s)
+
+Reports
+-------
+
+Input Report
+~~~~~~~~~~~~
+Length:     16 byte(s)
+Buttons:    1 button(s)
+Values:     0 value(s)
+
+Output Report
+~~~~~~~~~~~~~
+length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+Feature Report
+~~~~~~~~~~~~~
+Length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+*** Input Caps ***
+
+    Usage Range 0~572 (0x0~0x23c), Page 0xc (Consumer)
+        bit_field: 0
+        data_index_max: 572
+        data_index_min: 0
+        designator_max: 0
+        designator_min: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: True
+        is_designator_range: 0
+        is_range: 1
+        is_string_range: 0
+        is_value: False
+        link_collection: 0
+        link_usage: 1 (0x1)
+        link_usage_page: 12 (0xc)
+        report_id: 2
+        string_max: 0
+        string_min: 0
+
+HID device (vID=0x1532, pID=0x0046, v=0x0200); Razer; Razer Mamba Tournament Edition, Path: \\?\hid#vid_1532&pid_0046&mi_01&col03#7&2c89c211&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Path:      \\?\hid#vid_1532&pid_0046&mi_01&col03#7&2c89c211&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Instance:  HID\VID_1532&PID_0046&MI_01&COL03\7&2C89C211&0&0002
+
+  Port (ID): 25
+
+  Port (str):USB\VID_1532&PID_0046&MI_01\6&2CB2A712&0&0001
+
+HID device documentation report
+===============================
+
+Top Level Details
+-----------------
+
+Manufacturer String:    Razer
+Product Sting:          Razer Mamba Tournament Edition
+Serial Number:
+
+Vendor ID:              0x1532
+Product ID:             0x0046
+Version number:         0x0200
+
+Device Path:            \\?\hid#vid_1532&pid_0046&mi_01&col03#7&2c89c211&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Device Instance Id:     HID\VID_1532&PID_0046&MI_01&COL03\7&2C89C211&0&0002
+Parent Instance Id:     25
+
+Top level usage:        Page=0x0001, Usage=0x80
+Usage identification:   Generic Desktop device, System Control usage
+Link collections:       1 collection(s)
+
+Reports
+-------
+
+Input Report
+~~~~~~~~~~~~
+Length:     16 byte(s)
+Buttons:    1 button(s)
+Values:     0 value(s)
+
+Output Report
+~~~~~~~~~~~~~
+length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+Feature Report
+~~~~~~~~~~~~~
+Length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+*** Input Caps ***
+
+    Usage Range 129~131 (0x81~0x83), Page 0x1 (Generic Desktop)
+        bit_field: 2
+        data_index_max: 2
+        data_index_min: 0
+        designator_max: 0
+        designator_min: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: True
+        is_designator_range: 0
+        is_range: 1
+        is_string_range: 0
+        is_value: False
+        link_collection: 0
+        link_usage: 128 (0x80)
+        link_usage_page: 1 (0x1)
+        report_id: 3
+        string_max: 0
+        string_min: 0
+
+HID device (vID=0x1532, pID=0x0046, v=0x0200); Razer; Razer Mamba Tournament Edition, Path: \\?\hid#vid_1532&pid_0046&mi_01&col04#7&2c89c211&0&0003#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Path:      \\?\hid#vid_1532&pid_0046&mi_01&col04#7&2c89c211&0&0003#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Instance:  HID\VID_1532&PID_0046&MI_01&COL04\7&2C89C211&0&0003
+
+  Port (ID): 25
+
+  Port (str):USB\VID_1532&PID_0046&MI_01\6&2CB2A712&0&0001
+
+HID device documentation report
+===============================
+
+Top Level Details
+-----------------
+
+Manufacturer String:    Razer
+Product Sting:          Razer Mamba Tournament Edition
+Serial Number:
+
+Vendor ID:              0x1532
+Product ID:             0x0046
+Version number:         0x0200
+
+Device Path:            \\?\hid#vid_1532&pid_0046&mi_01&col04#7&2c89c211&0&0003#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Device Instance Id:     HID\VID_1532&PID_0046&MI_01&COL04\7&2C89C211&0&0003
+Parent Instance Id:     25
+
+Top level usage:        Page=0x0001, Usage=0x00
+Usage identification:   Generic Desktop device, Unknown usage
+Link collections:       1 collection(s)
+
+Reports
+-------
+
+Input Report
+~~~~~~~~~~~~
+Length:     16 byte(s)
+Buttons:    1 button(s)
+Values:     0 value(s)
+
+Output Report
+~~~~~~~~~~~~~
+length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+Feature Report
+~~~~~~~~~~~~~
+Length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+*** Input Caps ***
+
+    Usage 3 (0x3), Page 0x1
+    (Generic Desktop device, Unknown usage)
+        bit_field: 0
+        data_index: 0
+        designator_index: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: True
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: False
+        link_collection: 0
+        link_usage: 0 (0x0)
+        link_usage_page: 1 (0x1)
+        report_id: 4
+        string_index: 0
+
+HID device (vID=0x1532, pID=0x0046, v=0x0200); Razer; Razer Mamba Tournament Edition, Path: \\?\hid#vid_1532&pid_0046&mi_01&col05#7&2c89c211&0&0004#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Path:      \\?\hid#vid_1532&pid_0046&mi_01&col05#7&2c89c211&0&0004#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Instance:  HID\VID_1532&PID_0046&MI_01&COL05\7&2C89C211&0&0004
+
+  Port (ID): 25
+
+  Port (str):USB\VID_1532&PID_0046&MI_01\6&2CB2A712&0&0001
+
+HID device documentation report
+===============================
+
+Top Level Details
+-----------------
+
+Manufacturer String:    Razer
+Product Sting:          Razer Mamba Tournament Edition
+Serial Number:
+
+Vendor ID:              0x1532
+Product ID:             0x0046
+Version number:         0x0200
+
+Device Path:            \\?\hid#vid_1532&pid_0046&mi_01&col05#7&2c89c211&0&0004#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Device Instance Id:     HID\VID_1532&PID_0046&MI_01&COL05\7&2C89C211&0&0004
+Parent Instance Id:     25
+
+Top level usage:        Page=0x0001, Usage=0x00
+Usage identification:   Generic Desktop device, Unknown usage
+Link collections:       1 collection(s)
+
+Reports
+-------
+
+Input Report
+~~~~~~~~~~~~
+Length:     16 byte(s)
+Buttons:    1 button(s)
+Values:     0 value(s)
+
+Output Report
+~~~~~~~~~~~~~
+length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+Feature Report
+~~~~~~~~~~~~~
+Length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+*** Input Caps ***
+
+    Usage 3 (0x3), Page 0x1
+    (Generic Desktop device, Unknown usage)
+        bit_field: 0
+        data_index: 0
+        designator_index: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: True
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: False
+        link_collection: 0
+        link_usage: 0 (0x0)
+        link_usage_page: 1 (0x1)
+        report_id: 5
+        string_index: 0
+
+HID device (vID=0x0b05, pID=0x1872, v=0x0200); AsusTek Computer Inc.; AURA LED Controller, Path: \\?\hid#vid_0b05&pid_1872#6&16128b8d&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Path:      \\?\hid#vid_0b05&pid_1872#6&16128b8d&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Instance:  HID\VID_0B05&PID_1872\6&16128B8D&0&0000
+
+  Port (ID): 26
+
+  Port (str):USB\VID_0B05&PID_1872\00000000001A
+
+HID device documentation report
+===============================
+
+Top Level Details
+-----------------
+
+Manufacturer String:    AsusTek Computer Inc.
+Product Sting:          AURA LED Controller
+Serial Number:          00000000001A
+
+Vendor ID:              0x0b05
+Product ID:             0x1872
+Version number:         0x0200
+
+Device Path:            \\?\hid#vid_0b05&pid_1872#6&16128b8d&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Device Instance Id:     HID\VID_0B05&PID_1872\6&16128B8D&0&0000
+Parent Instance Id:     26
+
+Top level usage:        Page=0x00ff, Usage=0x01
+Usage identification:   Unknown Page/usage
+Link collections:       1 collection(s)
+
+Reports
+-------
+
+Input Report
+~~~~~~~~~~~~
+Length:     65 byte(s)
+Buttons:    0 button(s)
+Values:     1 value(s)
+
+Output Report
+~~~~~~~~~~~~~
+length:     65 byte(s)
+Buttons:    0 button(s)
+Values:     1 value(s)
+
+Feature Report
+~~~~~~~~~~~~~
+Length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+*** Input Caps ***
+
+    Usage 16 (0x10), Page 0xff
+    (Unknown Page/usage)
+        bit_field: 2
+        bit_size: 8
+        data_index: 0
+        designator_index: 0
+        has_null: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: False
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: True
+        link_collection: 0
+        link_usage: 1 (0x1)
+        link_usage_page: 255 (0xff)
+        logical_max: 255
+        logical_min: 0
+        physical_max: 0
+        physical_min: 0
+        report_count: 64
+        report_id: 236
+        string_index: 0
+        units: 0
+        units_exp: 0
+
+*** Output Caps ***
+
+    Usage 17 (0x11), Page 0xff
+    (Unknown Page/usage)
+        bit_field: 2
+        bit_size: 8
+        data_index: 0
+        designator_index: 0
+        has_null: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: False
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: True
+        link_collection: 0
+        link_usage: 1 (0x1)
+        link_usage_page: 255 (0xff)
+        logical_max: 255
+        logical_min: 0
+        physical_max: 0
+        physical_min: 0
+        report_count: 64
+        report_id: 236
+        string_index: 0
+        units: 0
+        units_exp: 0
+
+HID device (vID=0x045e, pID=0x02ff, v=0x0000); Unknown manufacturer; Controller (Xbox One For Windows), Path: \\?\hid#vid_045e&pid_02ff&ig_00#7&18de0525&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Path:      \\?\hid#vid_045e&pid_02ff&ig_00#7&18de0525&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  Instance:  HID\VID_045E&PID_02FF&IG_00\7&18DE0525&0&0000
+
+  Port (ID): 27
+
+  Port (str):USB\VID_045E&PID_02FF&IG_00\00&00&0000E2A4B380ED7E
+
+HID device documentation report
+===============================
+
+Top Level Details
+-----------------
+
+Manufacturer String:    Unknown manufacturer
+Product Sting:          Controller (Xbox One For Windows)
+Serial Number:
+
+Vendor ID:              0x045e
+Product ID:             0x02ff
+Version number:         0x0000
+
+Device Path:            \\?\hid#vid_045e&pid_02ff&ig_00#7&18de0525&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Device Instance Id:     HID\VID_045E&PID_02FF&IG_00\7&18DE0525&0&0000
+Parent Instance Id:     27
+
+Top level usage:        Page=0x0001, Usage=0x05
+Usage identification:   Generic Desktop device, Game Pad usage
+Link collections:       4 collection(s)
+
+Reports
+-------
+
+Input Report
+~~~~~~~~~~~~
+Length:     15 byte(s)
+Buttons:    1 button(s)
+Values:     6 value(s)
+
+Output Report
+~~~~~~~~~~~~~
+length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+Feature Report
+~~~~~~~~~~~~~
+Length:     0 byte(s)
+Buttons:    0 button(s)
+Values:     0 value(s)
+
+*** Input Caps ***
+
+    Usage Range 1~10 (0x1~0xa), Page 0x9 (Button)
+        bit_field: 2
+        data_index_max: 14
+        data_index_min: 5
+        designator_max: 0
+        designator_min: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: True
+        is_designator_range: 0
+        is_range: 1
+        is_string_range: 0
+        is_value: False
+        link_collection: 0
+        link_usage: 5 (0x5)
+        link_usage_page: 1 (0x1)
+        report_id: 0
+        string_max: 0
+        string_min: 0
+
+    Usage 49 (0x31), Page 0x1
+    (Generic Desktop device, Y usage)
+        bit_field: 2
+        bit_size: 16
+        data_index: 0
+        designator_index: 0
+        has_null: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: False
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: True
+        link_collection: 1
+        link_usage: 0 (0x0)
+        link_usage_page: 1 (0x1)
+        logical_max: -1
+        logical_min: 0
+        physical_max: -1
+        physical_min: 0
+        report_count: 1
+        report_id: 0
+        string_index: 0
+        units: 0
+        units_exp: 0
+
+    Usage 48 (0x30), Page 0x1
+    (Generic Desktop device, X usage)
+        bit_field: 2
+        bit_size: 16
+        data_index: 1
+        designator_index: 0
+        has_null: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: False
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: True
+        link_collection: 1
+        link_usage: 0 (0x0)
+        link_usage_page: 1 (0x1)
+        logical_max: -1
+        logical_min: 0
+        physical_max: -1
+        physical_min: 0
+        report_count: 1
+        report_id: 0
+        string_index: 0
+        units: 0
+        units_exp: 0
+
+    Usage 52 (0x34), Page 0x1
+    (Generic Desktop device, Ry usage)
+        bit_field: 2
+        bit_size: 16
+        data_index: 2
+        designator_index: 0
+        has_null: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: False
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: True
+        link_collection: 2
+        link_usage: 0 (0x0)
+        link_usage_page: 1 (0x1)
+        logical_max: -1
+        logical_min: 0
+        physical_max: -1
+        physical_min: 0
+        report_count: 1
+        report_id: 0
+        string_index: 0
+        units: 0
+        units_exp: 0
+
+    Usage 51 (0x33), Page 0x1
+    (Generic Desktop device, Rx usage)
+        bit_field: 2
+        bit_size: 16
+        data_index: 3
+        designator_index: 0
+        has_null: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: False
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: True
+        link_collection: 2
+        link_usage: 0 (0x0)
+        link_usage_page: 1 (0x1)
+        logical_max: -1
+        logical_min: 0
+        physical_max: -1
+        physical_min: 0
+        report_count: 1
+        report_id: 0
+        string_index: 0
+        units: 0
+        units_exp: 0
+
+    Usage 50 (0x32), Page 0x1
+    (Generic Desktop device, Z usage)
+        bit_field: 2
+        bit_size: 16
+        data_index: 4
+        designator_index: 0
+        has_null: 0
+        is_absolute: 1
+        is_alias: 0
+        is_button: False
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: True
+        link_collection: 3
+        link_usage: 0 (0x0)
+        link_usage_page: 1 (0x1)
+        logical_max: -1
+        logical_min: 0
+        physical_max: -1
+        physical_min: 0
+        report_count: 1
+        report_id: 0
+        string_index: 0
+        units: 0
+        units_exp: 0
+
+    Usage 57 (0x39), Page 0x1
+    (Generic Desktop device, Hat switch usage)
+        bit_field: 66
+        bit_size: 4
+        data_index: 15
+        designator_index: 0
+        has_null: 1
+        is_absolute: 1
+        is_alias: 0
+        is_button: False
+        is_designator_range: 0
+        is_range: 0
+        is_string_range: 0
+        is_value: True
+        link_collection: 0
+        link_usage: 5 (0x5)
+        link_usage_page: 1 (0x1)
+        logical_max: 8
+        logical_min: 1
+        physical_max: 4155
+        physical_min: 0
+        report_count: 1
+        report_id: 0
+        string_index: 0
+        units: 14
+        units_exp: 0
