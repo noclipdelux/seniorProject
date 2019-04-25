@@ -107,7 +107,10 @@ def main():
     while True:
         events = get_gamepad()
         for event in events:
-            print(event.ev_type, event.code, event.state)
+            # print(event.ev_type, event.code, event.state)
+            code = str(event.code)
+            state = str(event.state)
+            print(code + ',' + state)
             # to handle button presses
             if event.code[:3] == "BTN":
                 buttonState(event.code, event.state)

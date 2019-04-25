@@ -23,15 +23,16 @@ class Client:
     def closeConnection(self):
         self.sock.close()
 
-    # send data
+    # send data - filter out SYN events
     def send(self, msg):
-        encoded = msg.encode('ascii')
-        self.sock.send(encoded)
+        if msg[0:3] != "SYN":
+            encoded = msg.encode('ascii')
+            self.sock.send(encoded)
 
 
 # disconnects on left trigger
 def checkDisconnect(client, code):
-    if code == "ABS_Z":
+    if code == "ABS_Z" or code == "ABS_RZ":
         client.closeConnection()
         print("Trigger detected, shutting down")
         exit(0)
