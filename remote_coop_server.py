@@ -2,7 +2,7 @@ import socket
 import pyvjoy
 
 
-# server class to handle data
+# server class to handle connection
 class Server:
     def __init__(self, port):
         self.port = port
@@ -21,13 +21,15 @@ class Server:
         self.bindServer()
         self.sock.listen(5)
         print("Waiting for connections...")
-        connection, address = self.sock.accept()
-        if connection == '' or address == '':
+        connection = ''
+        address = ''
+        try:
+            connection, address = self.sock.accept()
+        except socket.error:
             print("Connection failed, shutting down")
             self.closeConnection()
             exit(1)
-        else:
-            print("Connection established to: " + str(address))
+        print("Connection established to: " + str(address))
         return connection, address
 
     # closes connection
@@ -41,17 +43,42 @@ class Server:
         msg = data.decode('ascii')
         return msg
 
-    # sends data
-    def send(self, msg):
-        encoded = msg.encoded('ascii')
-        self.connection.send(encoded)
+
+# feeder class to handle data formatting and usage
+class Feeder:
+    def __init__(self):
+        self.dev = pyvjoy.VJoyDevice(1)
+
+    # feeds data to appropriate buttons/triggers
+    def feed(self, data):
+        event, code = self.format(data)
+        # TODO: create handler methods and split control flow here
+        return
+
+    # formats incoming data stream - static, does not alter instance variables
+    @staticmethod
+    def format(data):
+        dataSplit = data.split(',')
+        event = dataSplit[0]
+        code = dataSplit[1]
+        return event, code
+
+
+# checks data stream for empty strings
+def checkStream(server, data):
+    if data == '':
+        server.closeConnection()
+        print("Getting empty strings, shutting down")
+        exit(0)
 
 
 def main():
     s = Server(12244)
+    f = Feeder
 
     while True:
-        print(s.receive())
+        data = s.receive()
+        checkStream(s, data)
 
 
 main()
