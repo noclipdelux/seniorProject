@@ -1,5 +1,7 @@
 Senior Project Documentation
+
 Vasil Markov, Spring 2019
+
 Project Objective
 Create a system of remote connection using emulated drivers on a remote host. Connection is established to remote machine and input is streamed over the network in order to interact with host machine. A driver related to the input device is instantiated and data is fed to it through a socket. The screen is streamed over the network back to the user. The end goal is to be able to emulate a controller on remote host in order to participate in local coop games. 
 
@@ -7,7 +9,9 @@ Create a system of remote connection using emulated drivers on a remote host. Co
 Project repository: https://github.com/noclipdelux/seniorProject
 
 General Information 
+
 Windows Human Interface Devices (HID):
+
 Windows HID is a generic USB driver for a variety of standard interfacing devices. In most cases, these devices include things like mice, keyboards, and game controllers. Before the HID protocol, most devices needed special drivers in order to work. Many vendors today use HID for proprietary drivers. Vendor specific USB protocols can also be used as 3rd party drivers. This project uses HID to gather the necessary input and stream it. 
 
 
@@ -17,6 +21,7 @@ HID is composed of two primary components. The Report Descriptor provides metada
 More information can found here: https://docs.microsoft.com/en-us/windows-hardware/drivers/hid/
 
 Virtual Drivers:
+
 In the current implementation of the project, the remote machine uses a virtual driver known as VJoy. Vjoy creates a virtual controller driver that can be fed data through python and the pyvjoy package. The virtual controller can be configured to match the controller providing the data. In this case, the controller providing the data is an Xbox One controller. In device manager, the driver will show up as “vjoy device” and can be used as a controller. 
 
 
@@ -24,6 +29,7 @@ More information can found here:
 http://vjoystick.sourceforge.net/site/index.php/dev216/system-architecture
 
 DirectInput vs. XInput:
+
 DirectInput and XInput provide an API for interfacing with Xbox 360/One controllers. DirectInput is the older implementation and is being replaced by XInput. DirectInput provides support for older controllers, but lacks many features and ease of use provided by the new XInput API. 
 
 
@@ -38,7 +44,9 @@ https://docs.microsoft.com/en-us/windows/desktop/xinput/xinput-and-directinput
 
 
 Technology
+
 Python
+
 The project was primarily developed on Python 2.7 due to some of the packages being supported on older versions. However, when running into some interpreter issues, I also tried the project in 3.6 as well. This lead to some odd conversion errors when feeding data to the virtual driver, but alleviated other unrelated issues. 
 
 
@@ -51,12 +59,14 @@ https://www.python.org/downloads/release/python-360/
 
 
 Pointy’s Joystick Test
+
 This small application is included in the git repository and is extremely useful when configuring and testing both the actual controller and the virtual one. In order to have it working properly you have to install DirectX version 9 and up. The easiest way to do this is to find the installer on the official Microsoft support website if the machine is new. If you are developing on a machine that has had previous game installed, odds are DirectX is already installed on it. 
 
 
 Connect the controller and run an instance of the application to see the way it is configured. Once VJoy is installed, you can run a second instance of the application in order to configure the virtual controller. 
 
 VJoy
+
 In order to create a virtual controller you must download VJoy from their official website. Download and install the complete VJoy package. This will include utilities for testing and configuring the virtual device. Once installed, use Pointy’s Joystick Test to configure the virtual device to match the hardware controller you are using. If installed correctly, there should be an application called “Configure VJoy”. Run it and select the proper number of buttons, hats, axis, and triggers. The configuration app is fairly straightforward to use, you select the current default device and change the values. The driver will disconnect and reconnect with the proper configuration.
 
 
@@ -67,13 +77,16 @@ Download VJoy here:
 http://vjoystick.sourceforge.net/site/index.php/download-a-install/download
 
 Packages
+
 When configuring your Python interpreter, be sure to install the following packages:
 1. Inputs - access to hardware data streams
 2. PyVJoy - wrapper for VJoy that allows you to feed data to the virtual driver
 3. WinUsb - useful when debugging hardware issues, check the samples folder for scripts that retrieve hardware metadata 
 
 Project Structure
+
 Samples
+
 Directory full of sample scripts from winusb that give information on hardware configuration
 * rawData.py - get data on current HID devices plugged in, uses raw data
 * showHID.py - prints a large list of HID devices and their metadata
@@ -81,12 +94,14 @@ Directory full of sample scripts from winusb that give information on hardware c
 * simpleSend.py - attempts to send a click event to a specified device, use the vendor ID to specify which device you want
 
 Test
+
 Directory for all my initial test files before the code was refactored into objects
 * client_test.py - a simple network client to receive data
 * input_test.py - the primary file I worked with for testing
 * server_test.py - the first iteration of the hosting server
 
 Remaining Files
+
 The files outside of the two previous directories
 * coop_client.py - refactored object based code for the client side
 * remote_coop_server.py - refactored object based code for the server side of the project
@@ -94,6 +109,7 @@ The files outside of the two previous directories
 * JoystickTest.exe - test app mentioned in the section above
 
 Install Process
+
 Here is a basic rundown of the install process. Assuming you are installing on a fresh machine, this should get you to a running set up.
 
 
